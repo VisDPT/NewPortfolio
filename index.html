@@ -74,14 +74,14 @@
 
     <!-- ABOUT ME -->
     <section class="bg-primary" id="one">
-        <div class="container">
+        <div class="container wow flipInX">
             <div class="row">
                 <!-- <div class="col-lg-6 text-center">-->
-<div class=" col-md-4  col-sm-4">
- <img class="img-responsive img-rounded " src="img/realME.png" alt="Dr. Visalam Vasanth PT, DPT" id="bio-image">
-</div>
+                <div class=" col-md-4  col-sm-4">
+                    <img class="img-responsive img-rounded " src="img/realME.png" alt="Dr. Visalam Vasanth PT, DPT" id="bio-image">
+                </div>
 
-                    <div class="col-md-8 col-sm-8">
+                <div class="col-md-8 col-sm-8">
                     <h2 class="margin-top-0 text-primary"><u>All About Dr. V</u></h2>
                     <br>
 
@@ -242,6 +242,64 @@
 
 
     <section class="container-fluid" id="four">
+        <div class="row" id="longTerm">
+            <div class="col-md-6 portfolio-item" style="margin-left:5%;">
+                <div class="carousel slide media wow fadeInLeft"  data-ride="carousel" id="main-carousel" style="width:500px;">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators" >
+                        <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#main-carousel" data-slide-to="1"></li>
+                        <li data-target="#main-carousel" data-slide-to="2"></li>
+                        <li data-target="#main-carousel" data-slide-to="3"></li>
+
+                    </ol>
+
+                    <!-- Slides -->
+                    <div class="carousel-inner" role="listbox" >
+                        <div class="item active">
+                        <img src="img/carouselTitle.jpeg" style="width:500px;"/>
+                        </div>
+                        <div class="item">
+                        <img src="img/carouselRegister.jpeg" />
+                        </div>
+                        <div class="item">
+                        <img src="img/carouselDashboard.jpeg" />
+                        </div>
+                        <div class="item">
+                        <img src="img/carouselRobomongo.jpeg" />
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#main-carousel" role="button" data-slide="prev">
+                        <span class="fa fa-arrow-left"></span>
+                    </a>
+                    <a class="right carousel-control"  href="#main-carousel" role="button" data-slide="next">
+                        <span class="fa fa-arrow-right"></span>
+                    </a>
+            </div>
+            </div>
+
+            <div class="col-md-4 portfolio-item media wow fadeInRight">
+                <h2 class="margin-top-0 text-primary ">  <b> <u>MEAN STACK PROJECT</u>
+
+                 </b></h2>
+                <p  style="font-weight: bold"> <u>Phase 1: </u></p>
+                <p style="">   <u style= "color:#00ff7f"> ✔ MONGOOSE</u> Schemas with 3 collections: Patients, Providers, Documents</p>
+                <p ><u style= "color:#00ff7f">✔ EXPRESS:</u> GET & POST requests work with mongoDB database (using Postman) </p>
+                <p><i class="fa fa-spinner fa-spin" aria-hidden="true"></i> <u style= "color:#ffff7f">ANGULAR</u> in progress... </p>
+                <p ><u style= "color:#00ff7f">✔ NODE</u> </p>
+                <p> Current Challenges: HIPAA Regulations, User Authentication & Security; </p>
+
+                 </div>
+        </div>
+
+
+
+
+
+
+
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
                 <h2 class="text-center text-primary">Features</h2>
@@ -515,7 +573,7 @@
                         </div>
                         <br/>
                         <div class="row center-block">
-<p>Javascript, HTML and CSS </p>
+                            <p>Javascript, HTML and CSS </p>
                             <a href="http://calm-journey-59021.herokuapp.com" class="btn btn-primary btn-xl "> Site </a>
                             <a href="https://github.com/VisDPT/week-3-game" class="btn btn-primary btn-xl "> Code </a>
                         </div>
@@ -554,7 +612,7 @@
             </div>
         </div>
     </div>
-
+<!--
     <div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-sm" >
             <div class="modal-content">
@@ -567,7 +625,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--scripts loaded here -->
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
