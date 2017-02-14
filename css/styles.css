@@ -532,7 +532,7 @@ img::-moz-selection {
 }
 
 .modalPortItem{
-    width:440px;
+    width:450px;
     /* 400pc*/
 
 }
@@ -548,6 +548,9 @@ text-align: center;
 
 /* Home Page Carousel */
     /*Bootstrap Carousel Control Overrides*/
+    .carouselContainer{
+        width:500px;
+    }
 
     .carousel-control span {
         position: absolute;
@@ -558,4 +561,40 @@ text-align: center;
 
     .carousel-control.right span {
         right: 20px;
+    }
+
+    @media screen and (max-width: 1106px){
+
+        .carouselContainer{
+            width:400px;
+
+        }
+    }
+
+
+    @media screen and (max-width: 767px){
+    .ME{
+        width:200px;
+    }
+}
+
+
+
+
+
+    @media screen and (max-width: 570px){
+
+        .modalPortItem{
+            width:250px;
+            /* 400pc*/
+
+        }
+        .languages{
+            width:75px;
+        }
+
+        .carouselContainer{
+            width:300px;
+
+        }
     }
